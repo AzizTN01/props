@@ -2,6 +2,9 @@ import React from "react";
 import Profile from "./Profile/Profile";
 import userImg from "./images/user.jpg";
 import userImg2 from "./images/user2.jpg";
+import userImg4 from "./images/user4.jpg";
+import userImg5 from "./images/user5.jpg";
+
 import "./styles.css";
 
 export default function App() {
@@ -12,14 +15,14 @@ export default function App() {
   return (
     <div className="App">
       <Profile
-        fullName="John Doe"
-        bio="Hello , my name is John Doe and i like web development"
+        fullName="mohamed aziz"
+        bio="Hello , my name is aziz and i like web development"
         profession="Full-Stack js Developer"
         handleName={handleName}
       >
         <img
           style={{ borderRadius: "100%", width: "200px", height: "200px" }}
-          src={userImg}
+          src={userImg4}
           alt="avatar"
         />
       </Profile>
@@ -31,7 +34,19 @@ export default function App() {
       >
         <img
           style={{ borderRadius: "100%", width: "200px", height: "200px" }}
-          src={userImg2}
+          src={userImg}
+          alt="avatar"
+        />
+      </Profile>
+      <Profile
+        fullName="john wick"
+        bio="Hello , my name is John wick and i like web development"
+        profession="assasin"
+        handleName={handleName}
+      >
+        <img
+          style={{ borderRadius: "100%", width: "200px", height: "200px" }}
+          src={userImg5}
           alt="avatar"
         />
       </Profile>
