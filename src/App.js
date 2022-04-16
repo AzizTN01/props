@@ -1,7 +1,6 @@
 import React from "react";
 import Profile from "./Profile/Profile";
 import userImg from "./images/user.jpg";
-import userImg2 from "./images/user2.jpg";
 import userImg4 from "./images/user4.jpg";
 import userImg5 from "./images/user5.jpg";
 
